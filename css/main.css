@@ -37,6 +37,7 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+  display: block;
 }
 
 /* ====================================
@@ -57,13 +58,9 @@ header {
   top: 1px;
 }
 
-main {
-  margin: 0 15px 0 15px;
-}
-
-p {
-  font-size: 16px;
-  line-height:1.2;
+hr {
+  border: black 1px solid;
+  margin-bottom: 12px;
 }
 
 a {
@@ -90,4 +87,30 @@ footer h2 {
   font-weight:700;
   border-radius: 20px;
   margin: 0 110px 0 110px;
+}
+
+.section-grey {
+  background: #ebede8;
+  padding: 25px 15px 25px 15px;
+}
+
+.section-grey-title {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.section-grey-card {
+  background: white;
+  border: lightgrey solid;
+  margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  font-weight: 500;
+}
+
+.card-text {
+  padding: 20px;
 }
