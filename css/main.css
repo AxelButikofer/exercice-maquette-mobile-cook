@@ -57,6 +57,10 @@ header {
   top: 1px;
 }
 
+main {
+  margin: 0 15px 0 15px;
+}
+
 p {
   font-size: 16px;
   line-height:1.2;
@@ -76,4 +80,14 @@ footer h2 {
   font-family: 'Sorts Mill Goudy', serif;
   font-size: 20px;
   line-height: 1.2;
+}
+
+.red-button {
+  color: white;
+  background: #e33d26;
+  text-align: center;
+  font-size: 11px;
+  font-weight:700;
+  border-radius: 20px;
+  margin: 0 110px 0 110px;
 }
