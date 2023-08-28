@@ -42,3 +42,16 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+html {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+p {
+  font-size: 16px;
+  line-height:1.2;
+}
+
+a {
+  font-size: 16px;
+}
